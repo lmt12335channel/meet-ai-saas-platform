@@ -41,7 +41,7 @@ yarn
 # Thiết lập biến môi trường
 cp .env.example .env.local
 # Chạy máy chủ phát triển
-pnpm dev
+npm run dev
 # Chạy Ingest Dev Server trong một terminal khác
 npx inngest-cli dev
 
